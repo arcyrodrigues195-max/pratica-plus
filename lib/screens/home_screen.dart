@@ -1,0 +1,56 @@
+import 'package:flutter/material.dart';
+
+class HomeScreen extends StatelessWidget {
+  const HomeScreen({Key? key}) : super(key: key);
+
+    @override
+      Widget build(BuildContext context) {
+          return Scaffold(
+                appBar: AppBar(
+                        title: const Text('Prática+ | Versão Gratuita'),
+                              ),
+                                    body: Padding(
+                                            padding: const EdgeInsets.all(16.0),
+                                                    child: Column(
+                                                              crossAxisAlignment: CrossAxisAlignment.stretch,
+                                                                        children: [
+
+                                                                                    ElevatedButton(
+                                                                                                  onPressed: () {
+                                                                                                                  // depois ligamos ao PGC
+                                                                                                                                },
+                                                                                                                                              child: const Text('PGC - Plano Geral de Contabilidade'),
+                                                                                                                                                          ),
+
+                                                                                                                                                                      const SizedBox(height: 12),
+
+                                                                                                                                                                                  ElevatedButton(
+                                                                                                                                                                                                onPressed: () {
+                                                                                                                                                                                                                // depois ligamos aos Lançamentos
+                                                                                                                                                                                                                              },
+                                                                                                                                                                                                                                            child: const Text('Lançamentos Contabilísticos'),
+                                                                                                                                                                                                                                                        ),
+
+                                                                                                                                                                                                                                                                    const SizedBox(height: 12),
+
+                                                                                                                                                                                                                                                                                ElevatedButton(
+                                                                                                                                                                                                                                                                                              onPressed: () {
+                                                                                                                                                                                                                                                                                                              // depois ligamos à Organização
+                                                                                                                                                                                                                                                                                                                            },
+                                                                                                                                                                                                                                                                                                                                          child: const Text('Organização de Documentos'),
+                                                                                                                                                                                                                                                                                                                                                      ),
+
+                                                                                                                                                                                                                                                                                                                                                                  const SizedBox(height: 12),
+
+                                                                                                                                                                                                                                                                                                                                                                              ElevatedButton(
+                                                                                                                                                                                                                                                                                                                                                                                            onPressed: () {
+                                                                                                                                                                                                                                                                                                                                                                                                            // depois ligamos ao IVA
+                                                                                                                                                                                                                                                                                                                                                                                                                          },
+                                                                                                                                                                                                                                                                                                                                                                                                                                        child: const Text('IVA - Declaração Mensal'),
+                                                                                                                                                                                                                                                                                                                                                                                                                                                    ),
+                                                                                                                                                                                                                                                                                                                                                                                                                                                              ],
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ),
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                            ),
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                );
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  }
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  }
